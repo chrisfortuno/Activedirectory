@@ -50,5 +50,32 @@ Create our Client Virtual Machine
 </p>
 <br />
 
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/3bfdfe5f-64b5-407d-88f2-ff254a437a59)
+
+In our Domain Controller VM, go to 'add roles and features' in Server Manager so we can install Active Directory
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/50fc7695-1b26-459c-aa5c-6478cece4f67)
+
+In the 'Server Roles' section, select 'Active Directery Domain Services' and contiunue clicking 'next', then 'install' at the end
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/31f44292-d75f-4e5d-a1a6-57c1a5b8afee)
+
+Afterwards, go back to the Server Manager home page and click 'Promote this server to a domain controller' under the yellow triangle
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/b9036873-36cb-474e-a4ce-0c2882839dab)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/fe719cb4-641d-4726-9eb7-9b47fb3418a8)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/0285fba1-7cc6-4959-9e81-e3cda46f5834)
+
+
+After clicking 'Promote this server to a domain controller', we will set a root domain name, and then a DSRM password, then continue to hit 'Next' then install 
+
+
+
+
+
+
+
 
 
