@@ -69,7 +69,45 @@ Afterwards, go back to the Server Manager home page and click 'Promote this serv
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/0285fba1-7cc6-4959-9e81-e3cda46f5834)
 
 
-After clicking 'Promote this server to a domain controller', we will set a root domain name, and then a DSRM password, then continue to hit 'Next' then install 
+After clicking 'Promote this server to a domain controller', we will set a root domain name, and then a DSRM password, then continue to hit 'Next' then install
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/eeb6b7a6-4b0b-4c3c-b9c6-f96cc7025f3c)
+
+After that, we will create an Admin account and a Normal User Account in Active Directory 
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/ef3ad27b-2e58-4348-866f-f72cdf7c85db)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/7842fd34-90c8-485c-bb7d-e342105c26a5)
+
+
+In the directory, we'll create an Organizational Unit called '_EMPLOYEES' where we will put the the normal users in, and we will also create an Organizational Unit called '_ADMINS' for the Admin Users
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/0c516e17-88d0-4092-b6af-37fd0f96cc4a)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/21f846d0-00b9-459d-938c-783de0a22adf)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/63eee163-7ecd-439d-87d7-8330b56d951a)
+
+
+
+In the Admins folder, we'll create a new User who will be the Admin of the server, we'll give them a generic username and password for now
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/e80a278b-13d0-4b9d-9672-b4534a650162)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/800e9a26-1831-4d22-a0df-670caa028b4c)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/c9a1a9eb-b09f-4597-95fc-6993c80a30b4)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/b259dacd-de9a-41ab-b2eb-263de4a49f3e)
+
+
+
+
+Next, we need to give the user we just created Admin privileges by adding the user to the 'Domain Admins' security group. First we right click and go to 'Properties', 'Member of', then go down to 'add', type in 'Domain', then 'Check names', then Domain Admins and hit OK, then Apply
+
+
+
+
 
 
 
