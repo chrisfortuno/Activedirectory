@@ -101,9 +101,9 @@ In the Admins folder, we'll create a new User who will be the Admin of the serve
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/b259dacd-de9a-41ab-b2eb-263de4a49f3e)
 
 
-
-
 Next, we need to give the user we just created Admin privileges by adding the user to the 'Domain Admins' security group. First we right click and go to 'Properties', 'Member of', then go down to 'add', type in 'Domain', then 'Check names', then Domain Admins and hit OK, then Apply
+
+
 
 
 
