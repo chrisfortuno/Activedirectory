@@ -103,6 +103,18 @@ In the Admins folder, we'll create a new User who will be the Admin of the serve
 
 Next, we need to give the user we just created Admin privileges by adding the user to the 'Domain Admins' security group. First we right click and go to 'Properties', 'Member of', then go down to 'add', type in 'Domain', then 'Check names', then Domain Admins and hit OK, then Apply
 
+For our next step, we will be joining the Client Virtual Machine to the Domain server
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/c547f778-1cf8-45f8-9a89-f5ebe9d952c9)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/8f933003-6072-4429-ba4c-2d6c809186ec)
+
+
+in our Client Virtual Machine, go to 'Start' and click 'System', then 'Rename this PC (advanced)', then click 'Change' under Computer Name, 
+
+
+
+
 
 
 
