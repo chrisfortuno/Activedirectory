@@ -139,7 +139,22 @@ After logging in to our Client VM, go to the 'Start' menu and click 'System', th
 
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/b132b947-407d-42ab-893a-1ffa59628154)
 
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/4af569ea-9447-4e21-8fe6-0d3374f0f567)
+
+
 This window shows who is able to remote desktop into this PC, so in order to make it so all guest users can remote into the Domain Server, we can add the entire group called 'Domain Users' so any user in that group will have the ability to remote in to the PC.
+To do this, click 'Add' and then write in 'Domain Users' in the box at the bottom and click 'Check Names', then 'OK' 
+
+Finally, we will use a script to create many users and attempt to log in to our Domain Server with one of our new users to make sure we have set up everything properly
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/a1e2c92e-147c-4e91-a2c5-140566da1f59)
+
+After logging into our Domain Client VM as our 'jane_doe' admin account, we will go to 'Start' and open up Windows Powershell
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/f7516a75-ff63-4561-b795-59ecb4e381ad)
+
+Next, copy the script that creates all the new users, 
+
 
 
 
