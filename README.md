@@ -153,7 +153,10 @@ After logging into our Domain Client VM as our 'jane_doe' admin account, we will
 
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/f7516a75-ff63-4561-b795-59ecb4e381ad)
 
-Next, copy the script that creates all the new users, 
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/c5d9c31d-fa4e-4f09-a73c-84059c732e5a)
+
+
+Next, copy the script that creates all the new users and Paste it into Powershell as a 'New Script' on the top left of the window
 
 
 
