@@ -103,7 +103,18 @@ In the Admins folder, we'll create a new User who will be the Admin of the serve
 
 Next, we need to give the user we just created Admin privileges by adding the user to the 'Domain Admins' security group. First we right click and go to 'Properties', 'Member of', then go down to 'add', type in 'Domain', then 'Check names', then Domain Admins and hit OK, then Apply
 
-For our next step, we will be joining the Client Virtual Machine to the Domain server
+For our next step, we will be joining the Client Virtual Machine to the Domain server. First, we will need to set the Client VM's DNS settings to the Domain Controller VM's Private IP Address
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/a5985bbe-5e5e-49ed-bd9b-2b690e54d5f6)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/4a183721-9d27-48be-b8c4-1efd495d820b)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/8d9209b2-5c96-406a-81eb-27a687258d29)
+
+
+
+Copy the Domain controller VM's NIC private IP address in Azure, then go to the Client VM, click on the 'Networking' tab and click on the name of the Network Interface. After that, go to the DNS servers tab and click 'Custom' under the DNS servers line. Where it says 'Add DNS Server', we will paste the NIC private IP Address we copied earlier into this box, then click save.
+
 
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/c547f778-1cf8-45f8-9a89-f5ebe9d952c9)
 
