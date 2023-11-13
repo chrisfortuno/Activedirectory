@@ -128,6 +128,19 @@ Copy the Domain controller VM's NIC private IP address in Azure, then go to the 
 
 in our Client Virtual Machine, go to 'Start' and click 'System', then 'Rename this PC (advanced)', then click 'Change' under Computer Name, then go down to 'Member of' and click 'Domain'. In the box below, type in the name we set for the server before. Next, you will be prompted by Windows Security to enter the name and password in order to join the domain, so put the name of the server and the username created previously, seperated by a forward slash (ex. mydomain.com\jane_admin), and use the password that was set for the admin account previously
 
+Following this step, we will set up remote desktop for the non-administrative users on the Client VM 
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/e45f3bd2-d9fa-4744-a714-7ed8362b1b4b)
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/036e21e1-bdd6-4438-bf0b-4e97f063178f)
+
+
+After logging in to our Client VM, go to the 'Start' menu and click 'System', then on the right side of the window click 'Remote Desktop', then click 'Select Users that can remotely access this PC' 
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/b132b947-407d-42ab-893a-1ffa59628154)
+
+This window shows who is able to remote desktop into this PC, so in order to make it so all guest users can remote into the Domain Server, we can add the entire group called 'Domain Users' so any user in that group will have the ability to remote in to the PC.
+
 
 
 
