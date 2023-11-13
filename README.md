@@ -158,7 +158,12 @@ After logging into our Domain Client VM as our 'jane_doe' admin account, we will
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/b0bade80-41bf-4cbc-a810-aa9638268d49)
 
 
-Next, copy the script that creates all the new users and Paste it into Powershell as a 'New Script' on the top left of the window and click 'Run Script' 
+Next, copy the script that creates all the new users and Paste it into Powershell as a 'New Script' on the top left of the window and click 'Run Script', this will begin creating many users over a period of time. 
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/bd3d1fb2-5b7d-49bc-976d-719557558d8c)
+
+Then, go back into Active Directory under the '_EMPLOYEES' Organizational Unit, and there should be all the user accounts created by the script. To ensure the accounts were created and can be used successfully, choose any of the users and 
+
 
 
 
