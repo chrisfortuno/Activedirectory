@@ -120,8 +120,11 @@ Copy the Domain controller VM's NIC private IP address in Azure, then go to the 
 
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/8f933003-6072-4429-ba4c-2d6c809186ec)
 
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/0639dc40-1330-4281-87cf-00297387bf77)
 
-in our Client Virtual Machine, go to 'Start' and click 'System', then 'Rename this PC (advanced)', then click 'Change' under Computer Name, 
+
+
+in our Client Virtual Machine, go to 'Start' and click 'System', then 'Rename this PC (advanced)', then click 'Change' under Computer Name, then go down to 'Member of' and click 'Domain'. In the box below, type in the name we set for the server before.
 
 
 
