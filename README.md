@@ -122,9 +122,11 @@ Copy the Domain controller VM's NIC private IP address in Azure, then go to the 
 
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/0639dc40-1330-4281-87cf-00297387bf77)
 
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/b611f634-b89f-4828-a4ee-1b19bf94a732)
 
 
-in our Client Virtual Machine, go to 'Start' and click 'System', then 'Rename this PC (advanced)', then click 'Change' under Computer Name, then go down to 'Member of' and click 'Domain'. In the box below, type in the name we set for the server before.
+
+in our Client Virtual Machine, go to 'Start' and click 'System', then 'Rename this PC (advanced)', then click 'Change' under Computer Name, then go down to 'Member of' and click 'Domain'. In the box below, type in the name we set for the server before. Next, you will be prompted by Windows Security to enter the name and password in order to join the domain, so put the name of the server and the username created previously, seperated by a forward slash (ex. mydomain.com\jane_admin), and use the password that was set for the admin account previously
 
 
 
