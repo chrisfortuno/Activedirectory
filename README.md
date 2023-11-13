@@ -162,8 +162,14 @@ Next, copy the script that creates all the new users and Paste it into Powershel
 
 ![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/bd3d1fb2-5b7d-49bc-976d-719557558d8c)
 
-Then, go back into Active Directory under the '_EMPLOYEES' Organizational Unit, and there should be all the user accounts created by the script. To ensure the accounts were created and can be used successfully, choose any of the users and 
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/ebf94780-c90c-4f81-92ba-e1d0f5a634ad)
 
+
+Then, go back into Active Directory under the '_EMPLOYEES' Organizational Unit, and there should be all the user accounts created by the script. To ensure the accounts were created and can be used successfully, choose any of the users and log in to the Domain Controller VM with that users credentials, the password will be 'Password1' because that is that password for all the user accounts created with the script
+
+![image](https://github.com/chrisfortuno/Activedirectory/assets/149267076/2ffe2734-f9bf-4832-ad62-35319f5bf2fc)
+
+If successful, you should be greeted with the login welcome screen. Once these user accounts are created and sorted into the '_EMPLOYEES' group, you can now easily give out these accounts to individual users, give or take away privileges or access to specific files or folders, reset passwords and much more using Active Directory 
 
 
 
